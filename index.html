@@ -4,44 +4,87 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing Page</title>
+    <title>Notemid</title>
     <link rel="stylesheet" href="css/estilo.css">
+    <script src="https://kit.fontawesome.com/c15b744a04.js"></script>
 </head>
 <body>
-    <header class="hero">
+    <nav>
+        <ul class="nav-bar">
+            <li class="nav-item"><a href="#hero" class="nav-link">Inicio</a></li>
+            <li class="nav-item"><a href="#info" class="nav-link">Información</a></li>
+            <li class="nav-item"><a href="#descargas" class="nav-link">Descargas</a></li>
+            <li class="nav-item"><a href="#galeria" class="nav-link">Galería</a></li>
+        </ul>
+    </nav>
+    <header class="hero" id="hero">
         <div class="text-hero">
-            <h1 class="text-60">Página de servicio</h1>
-            <p class="text-25"> Esta página solucionará sus problemas</p>
+            <h1 class="text-60">Notemid</h1>
+            <p class="text-25">Organize your notes in the best way</p>
         </div>
     </header>
-    <section>
-        <div class="info">
-            <h2 class="titulo"> Información </h2>
-            <p class="titulo text-25"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis quia minima, nisi, corrupti sed placeat iure quis at pariatur non enim praesentium quo ipsam sequi sunt delectus! Illum, assumenda aliquam!</p>
+    <section class="info" id="info">
+        <div class="contenedor">  
+            <h2 class="titulo"> Information </h2>
+            <p class="titulo text-25">We are more than a doc. Or a table. Customize Notemid to work the way you do.</p>
+        </div>
+    </section>
+    <section class="contenedor" id="descargas">
+        <h2 class="titulo">Desktop</h2>
+        <div class="contenedor-card">
+            <article class="card">
+                <i class="fa fa-windows color-icon"></i>
+                <h3>Windows</h3>
+                <a href="https://www.microsoft.com/es-cl/">Download</a>
+            </article>
+            <article class="card">
+                <i class="fa fa-apple color-icon"></i>
+                <h3>MacOS</h3>
+                <a href="https://www.apple.com">Download</a>
+            </article>
+            <article class="card">
+                <i class="fa fa-linux color-icon"></i>
+                <h3>Linux</h3>
+                <a href="https://www.linux.org">Download</a>
+            </article>
         </div>
     </section>
     <section class="contenedor">
-        <h2 class="titulo">Servicios</h2>
+        <h2 class="titulo">Mobile</h2>
         <div class="contenedor-card">
             <article class="card">
-                <i class="fa fa-cloud"></i>
-                <h3>Servicio 1</h3>
-                <p>Aquí ira la informacion del servicio 1</p>
-                <a href="">Más nformacion</a>
+                <i class="fa fa-android color-icon"></i>
+                <h3>Android</h3>
+                <a href="https://www.android.com">Download</a>
             </article>
             <article class="card">
-                <i class="fa fa-cloud"></i>
-                <h3>Servicio 2</h3>
-                <p>Aquí ira la informacion del servicio 2</p>
-                <a href="">Más nformacion</a>
-            </article>
-            <article class="card">
-                <i class="fa fa-cloud"></i>
-                <h3>Servicio 3</h3>
-                <p>Aquí ira la informacion del servicio 3</p>
-                <a href="">Más nformacion</a>
+                <i class="fa fa-apple color-icon"></i>
+                <h3>iPhone</h3>
+                <a href="https://www.apple.com/iphone/">Download</a>
+        </div>
+    </section>
+    <section class="galeria" id="galeria">
+        <div class="contenedor">
+            <article class="galeria-contenedor">
+                <img src="img/img1.jpg" class="img" alt="img1">
+                <img src="img/img2.jpg" class="img" alt="img2">
+                <img src="img/img3.jpg" class="img" alt="img3">
+                <img src="img/img4.jpg" class="img" alt="img4">
+                <img src="img/img5.jpg" class="img" alt="img5">
+                <img src="img/img6.jpg" class="img" alt="img6">
             </article>
         </div>
     </section>
+    <footer class="footer-color">
+        <div class="footer">
+            <h3 class="fa fa-book color-icon titulo-f">Notemid</h3>
+            <ul>
+                <li><a class="fa fa-bars" href="https://www.google.com/intl/es-419/gmail/about/" target="_blank">About us</a></li>
+                <li><a class="fa fa-phone" href="https://www.google.com/intl/es-419/gmail/about/" target="_blank">Contact sales</a></li>
+                <li><a class="fa fa-gears" href="https://www.google.com/intl/es-419/gmail/about/" target="_blank">Contact support</a></li>
+                <li><a class="fa fa-envelope" href="https://www.google.com/intl/es-419/gmail/about/" target="_blank">Email us</a></li>
+            </ul>
+        </div>
+    </footer>
 </body>
 </html>
